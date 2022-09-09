@@ -1,17 +1,16 @@
 #include <stdio.h> 
   
  /** 
-  * main - program that prints all single digit numbers of base 10 starting from 
-  * You are not allowed to use any variable of type char 
+  * main - program that prints the lowercase in the reverse. 
   * You can only use the putchar function 
   * Return: 0 
   */ 
   
  int main(void) 
  { 
- int d; 
- for (d = '0'; d <= '9'; d++) 
- putchar(d); 
+ char low; 
+ for (low = 'z'; low >= 'a'; low--) 
+ putchar(low); 
  putchar('\n'); 
-return (0); 
+ return (0); 
  }
