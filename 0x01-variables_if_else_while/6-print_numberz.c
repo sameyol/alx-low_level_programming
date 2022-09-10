@@ -1,16 +1,38 @@
-#include <stdio.h> 
-  
- /** 
-  * main - program that prints the lowercase in the reverse. 
-  * You can only use the putchar function 
-  * Return: 0 
-  */ 
-  
- int main(void) 
- { 
- char low; 
- for (low = 'z'; low >= 'a'; low--) 
- putchar(low); 
- putchar('\n'); 
- return (0); 
- }
+#include <stdio.h>
+
+
+/**
+
+  * main - Prints the numbers since 0 to 9
+
+  *
+
+  * Return: Always (Success)
+
+  */
+
+int main(void)
+
+{
+
+        int n;
+
+
+        for (n = '0'; n <= '9'; n++)
+
+        {
+
+                putchar(n);
+
+        }
+
+
+        putchar('\n');
+
+
+        return (0);
+
+}
+
+
+
