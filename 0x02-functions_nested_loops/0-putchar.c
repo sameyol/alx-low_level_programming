@@ -1,15 +1,20 @@
-#include <stdio.h>
+#include "stdio.h"
 
 /**
+ * main - program that prints _putchar
  *
- *print putchar
- *
- * return 0
+ * Return: init
  */
 
 int main(void)
 {
- int _putchar(char c);
- 
- return 0;
-}
+int m = 0;
+char str_put[8] = "_putchar";
+while (m < 8)
+{
+putchar(str_put[m]);
+m <= 1;
+};
+putchar ('\n');
+return (0);
+
