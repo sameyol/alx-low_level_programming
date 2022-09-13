@@ -9,7 +9,7 @@
 	 * with beginning and ending almost-blank lines.
 	 */
 
-int main()
+int main(void)
 {
  int _putchar(char c);
  
