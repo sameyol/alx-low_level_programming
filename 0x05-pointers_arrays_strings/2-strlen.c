@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * _strspn - return length of string that matches values consistently
- * @s: string to search
- * @accept: target matches
- * Return: number of bytes consecutively matched
+ * _strlen - checks the length of a string
+ * @s: string to check
+ * Return: int length of the string
  */
 
 int _strlen(char *s)
